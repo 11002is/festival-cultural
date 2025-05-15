@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a;
+    color: white;
+}
+header {
+    background: #000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    margin-left: 1em;
+    color: white;
+    text-decoration: none;
+}
+.principio{
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(to right, #e91e63, #00bcd4);
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+}
+.boton {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.artistas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+  }
+  
+  .artista {
+    max-width: 300px;
+    text-align: center;
+    color: white;
+  }
+  
+  .artista img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .REDES {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+    background-color: #111; 
+  }
+  
+  .REDES div {
+    max-width: 60px;
+    text-align: center;
+  }
+  
+  .REDES img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+.entradas { background: #e91e63; }
+.viaje { background: #00bcd4; }
+.eventos { background: #ff9800; }
+.info { background: #009688; }
+
+@media (max-width: 768px) {
+    .botones {
+        flex-direction: column;
+    }
+    
+
+
+}
